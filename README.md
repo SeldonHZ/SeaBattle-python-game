@@ -3,7 +3,7 @@ This GitHub project is a sea battle console game that will challenge players wit
 
 ![image](./Sea-console.png)
 
-My sea battle AI utilizes a more strategic approach compared to most other AI's that simply choose coordinates randomly. Instead, the AI calculates the point with the highest probability of having a ship by randomly placing unfound ships on free cells. The point with the most generated ships on it is then targeted by the computer's shot. This approach ensures both effectiveness and randomness, making it impossible for the user to exploit any predictable patterns. Based on my statistics, this AI has a 60% win rate against other random-based sea battle AI's, which is a remarkable result considering the inherent chaos of the battleship game.
+My sea battle AI calculates the point with the highest probability of having a ship by randomly placing unfound ships in free cells. The point with the most generated ships on it is then targeted by the computer's shot. This approach ensures both effectiveness and randomness, making it impossible for the user to exploit any predictable patterns. From my testing, this AI has a 60% win rate against random coordinate picking, but in this random-based game a fair part of a victory is ship arrangement (which is still randomly generated without any heuristics).
 
 ### Requirements
 
